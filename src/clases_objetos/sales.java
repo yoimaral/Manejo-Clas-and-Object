@@ -10,7 +10,7 @@ public class sales {
    private char dateFin;
    public char status;
    
-   public static void main(){
+   public static void main(String[] args){
    
       
        
