@@ -73,12 +73,16 @@ public class banckAccount extends banck_Protected {
    System.out.println("El numero de cuenta ingresado fuee" + account.getAccountNumber());
    }
    
+   /**
+    * Se ingresa el estado de la cuenta.
+    * 
+    */
    public void activated(){
    Scanner entry = new Scanner (System.in);
    
    System.out.println("----------------------------");
    System.out.println("Ingrese el estado dela cuenta activa o inactiva");
-   boolean activated = entry.nextBoolean();
+   boolean activated = entry.nextBoolean(); //Validar que si convierte un array o string en un booleano
    
    System.out.println("----------------------------");
    System.out.println("El estadode la cuenta es" + activated);

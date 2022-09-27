@@ -18,7 +18,7 @@ public class sales {
    
    public void banck(){
         banckAccount enterMount = new banckAccount();
-       enterMount.enterAmount();
+       //enterMount.enterAmount();
    }
    
    public void person(){
