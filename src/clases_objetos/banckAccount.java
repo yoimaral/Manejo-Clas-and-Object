@@ -13,12 +13,12 @@ public class banckAccount extends banck_Protected {
  
    
    public void name(){
-   Scanner enterName = new Scanner (System.in);
+   Scanner entry = new Scanner (System.in);
    banck_Account banck = new banck_Account();
    
    
    System.out.println("Ingrese su nombre");
-   String name = enterName.nextLine();
+   String name = entry.nextLine();
    banck.setName(name);
    
    System.out.println("El nombre ingresado es"+ banck.getName());
@@ -29,33 +29,32 @@ public class banckAccount extends banck_Protected {
     * la clase banck_Protected la cual seencuentra en el paquete Protected
     */
    public void banckName(){
-   Scanner enterName = new Scanner (System.in);
+   Scanner entry = new Scanner (System.in);
    
    System.out.println("Ingrese su nombre");
-   banckName = enterName.nextLine();
+   banckName = entry.nextLine();
    
    System.out.println("El nombre ingresado es"+ banckName);
 }
    
    public void badge(){
-   Scanner enterBadge = new Scanner (System.in);
+   Scanner entry = new Scanner (System.in);
    banck_Account banck = new banck_Account();
    
 
    System.out.println("Ingrese el tipo de tarjeta");
-   String badges = enterBadge.nextLine();
+   String badges = entry.nextLine();
    banck.setBadge(badges);
    
    System.out.println("El nombre de tarjeta es"+ banck.getBadge());
 }
    
    public void amount(){
-   Scanner enterAmount = new Scanner (System.in);
+   Scanner entry = new Scanner (System.in);
    banck_Account amounts = new banck_Account();
    
-
    System.out.println("Ingrese el monto");
-   float amoun = enterAmount.nextFloat();
+   float amoun = entry.nextFloat();
    amounts.setAmount(amoun);
    
    System.out.println("El monto ingresado fue"+ amounts.getAmount());
@@ -74,6 +73,18 @@ public class banckAccount extends banck_Protected {
    System.out.println("El numero de cuenta ingresado fuee" + account.getAccountNumber());
    }
    
-   s
+   public void activated(){
+   Scanner entry = new Scanner (System.in);
    
+   System.out.println("----------------------------");
+   System.out.println("Ingrese el estado dela cuenta activa o inactiva");
+   boolean activated = entry.nextBoolean();
+   
+   System.out.println("----------------------------");
+   System.out.println("El estadode la cuenta es" + activated);
+   }
+   
+      
+      
+      
 }
