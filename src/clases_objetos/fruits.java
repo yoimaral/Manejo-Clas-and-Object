@@ -6,9 +6,16 @@ import set_get.fruits_Set_Get;
         
 public class fruits {
     
- protected char name;
+ public String name;
  protected float averageWeight;
  
+ public void name(){
+     Scanner entry = new Scanner (System.in);
+     
+     System.out.println("Ingrese el nombre de la fruta");
+     this.name = entry.nextLine();
+     
+ }
  
  public void setColor(){
      Scanner entry = new Scanner (System.in);
