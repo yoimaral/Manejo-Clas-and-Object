@@ -2,7 +2,7 @@
 package clases_objetos;
 
 import java.util.Scanner;
-import set_get.banck_Account; //Importo la clase para usar sus atributos y metodos
+import set_get.banckAccount_Set_Get; //Importo la clase para usar sus atributos y metodos
 import Protected.banck_Protected;//Importo la clase para usar sus atributos y metodos
 
 /**
@@ -14,7 +14,7 @@ public class banckAccount extends banck_Protected {
    
    public void name(){
    Scanner entry = new Scanner (System.in);
-   banck_Account banck = new banck_Account();
+   banckAccount_Set_Get banck = new banckAccount_Set_Get();
    
    
    System.out.println("Ingrese su nombre");
@@ -39,7 +39,7 @@ public class banckAccount extends banck_Protected {
    
    public void badge(){
    Scanner entry = new Scanner (System.in);
-   banck_Account banck = new banck_Account();
+   banckAccount_Set_Get banck = new banckAccount_Set_Get();
    
 
    System.out.println("Ingrese el tipo de tarjeta");
@@ -51,7 +51,7 @@ public class banckAccount extends banck_Protected {
    
    public void amount(){
    Scanner entry = new Scanner (System.in);
-   banck_Account amounts = new banck_Account();
+   banckAccount_Set_Get amounts = new banckAccount_Set_Get();
    
    System.out.println("Ingrese el monto");
    float amoun = entry.nextFloat();
@@ -62,7 +62,7 @@ public class banckAccount extends banck_Protected {
    
    public void accountNumber(){
    Scanner entry = new Scanner (System.in);
-   banck_Account account = new banck_Account();
+   banckAccount_Set_Get account = new banckAccount_Set_Get();
    
    System.out.println("----------------------------");
    System.out.println("Ingresar numero de cuenta");
