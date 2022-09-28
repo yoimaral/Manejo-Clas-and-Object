@@ -3,17 +3,26 @@ package clases_objetos;
 
 import java.util.Scanner;
 import set_get.fruits_Set_Get;
+import Protected.fruits_Protected;
         
-public class fruits {
+public class fruits extends fruits_Protected{
     
  public String name;
- protected float averageWeight;
+
  
  public void name(){
      Scanner entry = new Scanner (System.in);
      
      System.out.println("Ingrese el nombre de la fruta");
      this.name = entry.nextLine();
+     
+ }
+ 
+ public void averageWeight(){
+     Scanner entry = new Scanner (System.in);
+     
+     System.out.println("Ingrese el peso de la fruta");
+     averageWeight = entry.nextFloat();
      
  }
  
