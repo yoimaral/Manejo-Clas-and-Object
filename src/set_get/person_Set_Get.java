@@ -1,7 +1,11 @@
 
 package set_get;
 
-public class Person {
+/**
+ * Se encapsulan losmetodos de Persona
+ * @author Usuario
+ */
+public class person_Set_Get {
     
 
    private int document;

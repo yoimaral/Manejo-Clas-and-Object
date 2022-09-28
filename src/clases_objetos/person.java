@@ -1,17 +1,14 @@
 
 package clases_objetos;
-
 import java.util.Scanner;
-import set_get.Person; //Importo la clase para usar sus atributos y metodos
+import set_get.person_Set_Get; //Importo la clase para usar sus atributos y metodos
 import Protected.person_Protected;
-
 public class person extends person_Protected {
    
    public String name;
    public String lastName1;
    public String lastName2;
-
-   
+    
    public void name(){
    Scanner nameLine = new Scanner (System.in);
    
@@ -35,7 +32,7 @@ public class person extends person_Protected {
    
    private void enterDocument(){
    Scanner docuLine = new Scanner (System.in);
-   Person Person = new Person();
+   person_Set_Get Person = new person_Set_Get();
    
    System.out.println("Ingrese su numero de Documento");
     int docu = docuLine.nextInt();

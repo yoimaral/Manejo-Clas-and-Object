@@ -8,7 +8,7 @@ package set_get;
  *
  * @author Usuario
  */
-public class banck_Account {
+public class banckAccount_Set_Get {
     
    private String name;
   
