@@ -3,15 +3,14 @@ package clases_objetos;
 
 import java.util.Scanner;
 import set_get.Person; //Importo la clase para usar sus atributos y metodos
+import Protected.person_Protected;
 
-
-public class person extends Person {//Creo una extensión para implementar los atributos protegidos, privados y sus metodos.
-    //Atributos
+public class person extends person_Protected {
+   
    public String name;
    public String lastName1;
    public String lastName2;
-   protected String email;
-   protected int cel;
+
    
    public void name(){
    Scanner nameLine = new Scanner (System.in);
