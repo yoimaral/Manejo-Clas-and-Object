@@ -13,7 +13,6 @@ public class sales {
    public static void main(String[] args){
    
       
-       
    }
    
    public void banck(){
@@ -23,12 +22,19 @@ public class sales {
    
    public void person(){
        person person = new person();
-       person.SetDocument();
+       person.playDocument();
    }
    
    private void dateIni(){
    
    }
    
+   
+   public void payment(){
+       paymen pay = new paymen();
+       
+       pay.playCurrency();
+       
+   }
    
 }
