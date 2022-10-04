@@ -21,8 +21,8 @@ public class paymen {
    paymen_Set_Get setCurrency = new paymen_Set_Get();
    
    System.out.println("Ingrese el tipo de moneda. Ejemplo: CO, US, CAD");
-    String curren = entry.nextLine();
-    setCurrency.setCurrency(curren);
+   String curren = entry.nextLine();
+   setCurrency.setCurrency(curren);
     
    }
    

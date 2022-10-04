@@ -9,5 +9,12 @@ package clases_objetos;
  * @author Usuario
  */
 public class supplier {
+  
+   private String employesName;
+   
+   public void set(){
+       
+   }
+    
     
 }
