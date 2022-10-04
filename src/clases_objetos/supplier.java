@@ -4,15 +4,28 @@
  */
 package clases_objetos;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Usuario
  */
 public class supplier {
-  
-   private String employesName;
+   
+   public String city;
+   
+   
+   public void city(){
+   Scanner entry = new Scanner (System.in);
+   
+   System.out.println("Ingrese la ciudad de recidencia");
+   this.city = entry.nextLine();
+       
+   }
    
    public void set(){
+       
+       
        
    }
     
