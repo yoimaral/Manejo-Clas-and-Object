@@ -6,13 +6,13 @@ package clases_objetos;
 
 import java.util.Scanner;
 import set_get.supplier_Set_Get;
-
+import Protected.supplier_Protected;
 
 /**
  *
  * @author Usuario
  */
-public class supplier {
+public class supplier extends supplier_Protected {
    
    public String city;
    
