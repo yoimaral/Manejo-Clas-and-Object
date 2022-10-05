@@ -5,6 +5,8 @@
 package clases_objetos;
 
 import java.util.Scanner;
+import set_get.supplier_Set_Get;
+
 
 /**
  *
@@ -23,11 +25,28 @@ public class supplier {
        
    }
    
-   public void set(){
-       
-       
+   
+   public void setSupplierName(){
+   Scanner entry = new Scanner (System.in);
+   supplier_Set_Get supplier = new supplier_Set_Get();
+   
+   System.out.println("Ingrese el nombre del proveedor");
+   String name = entry.nextLine();
+   
+   supplier.setSupplierName(name);
        
    }
     
+   
+   public void setPhone(){
+   Scanner entry = new Scanner (System.in);
+   supplier_Set_Get supplier = new supplier_Set_Get();
+   
+   System.out.println("Ingrese el telefono del proveedor");
+   int phone = entry.nextInt();
+   
+   supplier.setPhone(phone);
+       
+   }
     
 }
