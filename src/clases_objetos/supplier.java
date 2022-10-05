@@ -36,7 +36,15 @@ public class supplier extends supplier_Protected {
    supplier.setSupplierName(name);
        
    }
-    
+   
+   
+   public void email(){
+   Scanner entry = new Scanner (System.in);
+   
+   System.out.println("Ingrese el email del proveedor");
+   email = entry.nextLine();
+       
+   }
    
    public void setPhone(){
    Scanner entry = new Scanner (System.in);
